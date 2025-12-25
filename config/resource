@@ -1,0 +1,28 @@
+{
+    "data-share":
+    {
+        "shares":
+        [
+            {
+                "name": "helloworld",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "helloworld"
+                    ]
+                }
+            },
+            {
+                "name": "helloworld/data",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "helloworld"
+                    ]
+                }
+            }
+        ]
+    }
+}
