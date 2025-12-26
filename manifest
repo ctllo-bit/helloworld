@@ -1,5 +1,5 @@
 appname               = helloworld
-version               = 1.0.3
+version               = 1.0.0
 display_name          = helloworld
 desc                  = 一个测试代码
 arch                  = x86_64
