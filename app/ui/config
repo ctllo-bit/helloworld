@@ -3,7 +3,7 @@
         "helloworld.Application": {
             "title": "helloworld",
             "icon": "images/icon_{0}.png",
-            "type": "iframe",
+            "type": "url",
             "protocol": "http",
             "url": "/cgi/ThirdParty/helloworld/index.cgi/",
             "allUsers": true
