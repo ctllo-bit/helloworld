@@ -1,0 +1,84 @@
+[
+    {
+        "type": "topGroup",
+        "label": "Fnos",
+        "id": "1782473573273-vrvfuoy",
+        "children": [
+            {
+                "type": "subGroup",
+                "label": "Git",
+                "id": "1782500810925-xsyz64b",
+                "children": [
+                    {
+                        "type": "command",
+                        "label": "回退",
+                        "command": "git reset --soft HEAD~1",
+                        "id": "1782500830892-ka3pvn2"
+                    },
+                    {
+                        "type": "command",
+                        "label": "推送",
+                        "command": "git push --force",
+                        "id": "1782500860188-omvcdl7"
+                    }
+                ]
+            },
+            {
+                "type": "subGroup",
+                "label": "Run",
+                "id": "1782473581926-zjirzn3",
+                "children": [
+                    {
+                        "type": "command",
+                        "label": "卸载",
+                        "command": "echo \"password\" | sudo -S appcenter-cli uninstall coder-docker",
+                        "id": "1785149475238-a6bf2nq"
+                    },
+                    {
+                        "type": "command",
+                        "label": "测试",
+                        "command": "echo \"password\" | sudo -S appcenter-cli install-local --volume 1",
+                        "id": "1782818643522-d52vo5d"
+                    },
+                    {
+                        "type": "command",
+                        "label": "打包",
+                        "command": "echo \"password\" | sudo -S fnpack build",
+                        "id": "1782474165084-wbjsn0g"
+                    },
+                    {
+                        "type": "command",
+                        "label": "安装",
+                        "command": "echo \"password\" | sudo -S appcenter-cli install-fpk ./*.fpk --volume 1 --env config.env",
+                        "id": "1782473623969-mhhdhld"
+                    },
+                    {
+                        "type": "command",
+                        "label": "运行",
+                        "command": "echo \"password\" | sudo -S make",
+                        "id": "1786297221841-y4dmywu"
+                    }
+                ]
+            },
+            {
+                "type": "subGroup",
+                "label": "go",
+                "id": "1783566065874-rere2f6",
+                "children": [
+                    {
+                        "type": "command",
+                        "label": "ff",
+                        "command": "echo \"password\" | sudo -S CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ../../bin/coder-proxy-linux-amd64 main.go",
+                        "id": "1785984586024-hqr26dc"
+                    },
+                    {
+                        "type": "command",
+                        "label": "fffffaaaa",
+                        "command": "echo \"password\" | sudo -S CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ../../bin/code-password-hash main.go",
+                        "id": "1786239307742-5pixcrr"
+                    }
+                ]
+            }
+        ]
+    }
+]
